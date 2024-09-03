@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client'
 import cryptoRoute from './routes/crypto.js'
 
 const app = express()
-const port = 8000
+const port = 3000
 const prisma = new PrismaClient()
 
 app.use('/crypto', cryptoRoute)

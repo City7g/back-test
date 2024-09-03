@@ -3,9 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node app",
+    "prod": "node app",
     "dev": "nodemon app"
   },
   "keywords": [],

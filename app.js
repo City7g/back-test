@@ -1,5 +1,5 @@
 import express from 'express'
-import cryptoRoute from './crypto'
+import cryptoRoute from './routes/crypto.js'
 
 const app = express()
 const port = 8000
